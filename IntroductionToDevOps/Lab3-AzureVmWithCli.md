@@ -15,7 +15,7 @@ In this task, we will configure Cloud Shell.
 
 2. From the Azure portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
 
-    ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/1002.png)
+    ![Screenshot of Azure Portal Azure Cloud Shell icon.](https://github.com/MicrosoftLearning/AZ-900T0x-MicrosoftAzureFundamentals/tree/master/Instructions/images/1002.png)
 
 3. If you have previously used the Cloud Shell, proceed to the next task. 
 
@@ -29,7 +29,7 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
 
 1. Ensure **Bash** is selected in the upper-left drop-down menu of the Cloud Shell pane (and if not, select it).
 
-    ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](../images/1002a.png)
+    ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](https://github.com/MicrosoftLearning/AZ-900T0x-MicrosoftAzureFundamentals/tree/master/Instructions/images/1002a.png)
 
 2. In the Bash session, within the Cloud Shell pane, create a new resource group. 
 
@@ -63,7 +63,7 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
 
 6. In the Azure portal, search for **Virtual machines** and verify that **myVMCLI** is running.
 
-    ![Screenshot of the virtual machines page with myVMPS in a running state.](../images/1101.png)
+    ![Screenshot of the virtual machines page with myVMPS in a running state.](https://github.com/MicrosoftLearning/AZ-900T0x-MicrosoftAzureFundamentals/tree/master/Instructions/images/1101.png)
 
 
 # Task 3: Execute commmands in the Cloud Shell
@@ -102,13 +102,13 @@ In this task, we will review Azure Advisor recommendations.
 
 2. On the **Advisor** blade, select **Overview**. Notice recommendations are grouped by High Availability, Security, Performance, and Cost. 
 
-    ![Screenshot of the Advisor Overview page. ](../images/1103.png)
+    ![Screenshot of the Advisor Overview page. ](https://github.com/MicrosoftLearning/AZ-900T0x-MicrosoftAzureFundamentals/tree/master/Instructions/images/1103.png)
 
 3. Select **All recommendations** and take time to view each recommendation and suggested actions. 
 
     **Note:** Depending on your resources, your recommendations will be different. 
 
-    ![Screenshot of the Advisor All recommendations page. ](../images/1104.png)
+    ![Screenshot of the Advisor All recommendations page. ](https://github.com/MicrosoftLearning/AZ-900T0x-MicrosoftAzureFundamentals/tree/master/Instructions/images/1104.png)
 
 4. Notice that you can download the recommendations as a CSV or PDF file. 
 

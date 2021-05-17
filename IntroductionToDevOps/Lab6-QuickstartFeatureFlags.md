@@ -22,11 +22,11 @@ The .NET Core Feature Management libraries extend the framework with comprehensi
 
 1. To create a new App Configuration store, sign in to the [Azure portal](https://portal.azure.com). In the upper-left corner of the home page, select **Create a resource**. In the **Search the Marketplace** box, enter *App Configuration* and select <kbd>Enter</kbd>.
 
-    ![Search for App Configuration](media/azure-app-configuration-create/azure-portal-search.png)
+    ![Search for App Configuration](https://github.com/MicrosoftDocs/azure-docs/tree/master/articles/azure-app-configuration/media/azure-app-configuration-create/azure-portal-search.png)
 
 1. Select **App Configuration** from the search results, and then select **Create**.
 
-    ![Select Create](media/azure-app-configuration-create/azure-portal-app-configuration-create.png)
+    ![Select Create](https://github.com/MicrosoftDocs/azure-docs/tree/master/articles/azure-app-configuration/media/azure-app-configuration-create/azure-portal-app-configuration-create.png)
 
 1. On the **Create App Configuration** pane, enter the following settings:
 
@@ -47,7 +47,7 @@ The .NET Core Feature Management libraries extend the framework with comprehensi
 1. Select **Operations** > **Feature manager** > **Add** to add a feature flag called *Beta*.
 
     > [!div class="mx-imgBorder"]
-    > ![Enable feature flag named Beta](media/add-beta-feature-flag.png)
+    > ![Enable feature flag named Beta](https://github.com/MicrosoftDocs/azure-docs/tree/master/articles/azure-app-configuration/media/add-beta-feature-flag.png)
 
     Leave **Label** empty for now. Select **Apply** to save the new feature flag.
 
