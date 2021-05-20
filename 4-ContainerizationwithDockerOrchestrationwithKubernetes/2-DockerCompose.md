@@ -10,6 +10,11 @@ In this tutorial, you use [Docker Compose](https://docs.docker.com/compose/) to 
 
 ## Create Azure container registry
 
+First, you need to log into azure:
+```azurecli
+az login
+```
+
 Before you create your container registry, you need a *resource group* to deploy it to. A resource group is a logical collection into which all Azure resources are deployed and managed.
 
 Create a resource group with the [az group create][az-group-create] command. In the following example, a resource group named *myResourceGroup* is created in the *eastus* region:
