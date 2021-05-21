@@ -41,7 +41,7 @@ If you can't find file or directories you create in the explorer, use the refres
         }
 
         variable "myproject" {
-            default = "barbotshop"
+            default = "<project>"
         }
 
         variable "region" {
@@ -321,7 +321,7 @@ Before continuing, you will need a couple of information:
             resource_group_name  = "mycommonrg"
             storage_account_name = <account-name>
             container_name       = "tstate"
-            key                  = "terraform.barbotshop.tfstate"
+            key                  = "terraform.tfstate"
             subscription_id      = <subscription-id>
         }
     ```
