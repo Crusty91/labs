@@ -82,7 +82,7 @@ If you can't find file or directories you create in the explorer, use the refres
     }
 
     variable "myproject" {
-        default = "barbotshop"
+        default = "<myproject>"
     }
 
     variable "region" {
@@ -97,7 +97,8 @@ If you can't find file or directories you create in the explorer, use the refres
         default = "latest"
     }
     ```
-
+    
+    Don't forget to replace the default value for the variable myproject, or you can override it when running `terraform apply` by using the `-var` flag.
     Save your file and go back to `main.tf`.
 
 
@@ -339,7 +340,7 @@ If you can't find file or directories you create in the explorer, use the refres
 
     Outputs:
 
-    traffic_manager_fqdn = "barbotshop-tm.trafficmanager.net"
+    traffic_manager_fqdn = "<project>-tm.trafficmanager.net"
     ``` 
     
     Open this URL in your web browser, and you should see nginx default page!
