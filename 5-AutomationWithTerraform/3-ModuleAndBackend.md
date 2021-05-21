@@ -173,7 +173,7 @@ If you can't find file or directories you create in the explorer, use the refres
         }
         ```
 
-    We will try to improve this configuration for collaboration an reusability.
+    We will try to improve this configuration for collaboration and reusability.
 
 1. We will extract the Traffic Manager and the two wheighted policies in a nested module.
     1. Create a directory called trafficmanager inside a new directory called modules
